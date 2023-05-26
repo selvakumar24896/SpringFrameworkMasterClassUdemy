@@ -7,7 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringMasterClassApplication {
 
 	public static void main(String[] args) {
+		searchInArray(new int[]{1,2,3,4,5}, 3);
 		SpringApplication.run(SpringMasterClassApplication.class, args);
+	}
+
+	private static void searchInArray(int[] arr, int i) {
+		BinarySearch bSearch = new BinarySearch();
+		bSearch.searchElement(arr, i);
 	}
 
 }
