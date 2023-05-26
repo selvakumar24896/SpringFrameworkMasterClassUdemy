@@ -1,7 +1,8 @@
 package com.udemy.spring_master_class.SpringMasterClass;
 
-public class BubbleSort {
+public class BubbleSort implements SortAlgorithm{
 
+    @Override
     public int[] sortArray(int[] arr){
         int[] sortedArray = new int[arr.length];
         return sortedArray;

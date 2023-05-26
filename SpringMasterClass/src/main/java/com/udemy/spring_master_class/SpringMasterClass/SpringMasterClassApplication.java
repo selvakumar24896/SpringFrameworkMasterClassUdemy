@@ -12,7 +12,7 @@ public class SpringMasterClassApplication {
 	}
 
 	private static void searchInArray(int[] arr, int i) {
-		BinarySearch bSearch = new BinarySearch();
+		BinarySearch bSearch = new BinarySearch(new BubbleSort());
 		bSearch.searchElement(arr, i);
 	}
 
