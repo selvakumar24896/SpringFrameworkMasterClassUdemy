@@ -1,5 +1,8 @@
 package com.udemy.spring_master_class.SpringMasterClass;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BubbleSort implements SortAlgorithm{
 
     @Override
