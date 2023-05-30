@@ -9,6 +9,7 @@ public class BinarySearch {
     @Autowired
     SortAlgorithm sortAlgorithm;
     public BinarySearch(SortAlgorithm algorithm){
+        super();
         this.sortAlgorithm = algorithm;
     }
     public int searchElement(int[] arr, int element){
