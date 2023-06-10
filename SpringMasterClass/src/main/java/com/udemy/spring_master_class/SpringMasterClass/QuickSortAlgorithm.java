@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class QuickSort implements SortAlgorithm{
+public class QuickSortAlgorithm implements SortAlgorithm{
 
     @Override
     public int[] sortArray(int[] array) {

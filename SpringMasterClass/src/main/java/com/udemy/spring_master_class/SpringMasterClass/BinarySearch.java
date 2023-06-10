@@ -7,13 +7,14 @@ import org.springframework.stereotype.Component;
 public class BinarySearch {
 
     @Autowired
-    SortAlgorithm sortAlgorithm;
+    SortAlgorithm bubbleSortAlgorithm;
     public BinarySearch(SortAlgorithm algorithm){
         super();
-        this.sortAlgorithm = algorithm;
+        this.bubbleSortAlgorithm = algorithm;
+        System.out.println("!!!!Sort algorithm used is "+algorithm.getClass());
     }
     public int searchElement(int[] arr, int element){
-        sortAlgorithm.sortArray(arr);
+        bubbleSortAlgorithm.sortArray(arr);
         return 3;
     }
 }

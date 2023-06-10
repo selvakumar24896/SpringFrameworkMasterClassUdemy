@@ -3,7 +3,7 @@ package com.udemy.spring_master_class.SpringMasterClass;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BubbleSort implements SortAlgorithm{
+public class BubbleSortAlgorithm implements SortAlgorithm{
 
     @Override
     public int[] sortArray(int[] arr){
