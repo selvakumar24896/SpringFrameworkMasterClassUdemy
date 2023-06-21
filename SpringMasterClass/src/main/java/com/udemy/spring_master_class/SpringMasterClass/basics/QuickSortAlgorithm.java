@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass;
+package com.udemy.spring_master_class.SpringMasterClass.basics;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
