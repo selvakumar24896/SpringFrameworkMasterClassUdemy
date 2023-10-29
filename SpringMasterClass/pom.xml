@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId> <!-- Inherit all the properties from org.springframework.boot -->
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.12</version>
+		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.udemy.spring_master_class</groupId><!-- groupId and artifact id can be used to consume this application in some other project -->
@@ -14,19 +14,32 @@
 	<name>SpringMasterClass</name><!-- prject name -->
 	<description>Demo project for Spring Boot</description><!-- Description of the project -->
 	<properties>
-		<java.version>1.8</java.version> <!-- java version-->
+		<java.version>17</java.version> <!-- java version-->
 	</properties>
 	<dependencies> <!-- Dependencies of this project -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter</artifactId>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework</groupId>-->
+<!--			<artifactId>spring-web</artifactId>-->
+<!--			<version>6.0.6</version>-->
+<!--		</dependency>-->
+
+
 		<!-- https://mvnrepository.com/artifact/javax.enterprise/cdi-api -->
 		<dependency>
 			<groupId>javax.enterprise</groupId>
