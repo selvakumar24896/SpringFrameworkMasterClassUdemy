@@ -1,6 +1,5 @@
-package com.udemy.spring_master_class.SpringMasterClass;
+package com.udemy.spring_master_class.SpringMasterClass.S2_CDI;
 
-import com.udemy.spring_master_class.SpringMasterClass.CDI.CdiBusiness;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

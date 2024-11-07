@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass;
+package com.udemy.spring_master_class.SpringMasterClass.S5_SpringBootIn10Steps;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

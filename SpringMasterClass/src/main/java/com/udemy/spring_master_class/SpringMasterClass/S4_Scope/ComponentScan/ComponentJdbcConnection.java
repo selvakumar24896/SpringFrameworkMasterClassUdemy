@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.ComponentScan;
+package com.udemy.spring_master_class.SpringMasterClass.S4_Scope.ComponentScan;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

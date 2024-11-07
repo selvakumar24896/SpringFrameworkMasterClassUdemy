@@ -1,6 +1,5 @@
-package com.udemy.spring_master_class.SpringMasterClass;
+package com.udemy.spring_master_class.SpringMasterClass.S1_basics;
 
-import com.udemy.spring_master_class.SpringMasterClass.basics.BinarySearch;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

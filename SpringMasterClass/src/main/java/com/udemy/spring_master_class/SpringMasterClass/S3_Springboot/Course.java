@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass.Springboot;
+package com.udemy.spring_master_class.SpringMasterClass.S3_Springboot;
 
 public class Course {
     public int courseId;

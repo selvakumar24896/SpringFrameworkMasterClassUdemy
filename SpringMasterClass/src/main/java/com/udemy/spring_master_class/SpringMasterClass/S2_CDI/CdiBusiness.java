@@ -1,9 +1,8 @@
-package com.udemy.spring_master_class.SpringMasterClass.CDI;
+package com.udemy.spring_master_class.SpringMasterClass.S2_CDI;
 
 
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.inject.Qualifier;
 
 @Named
 public class CdiBusiness {

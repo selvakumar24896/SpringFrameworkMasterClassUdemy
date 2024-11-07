@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass.basics;
+package com.udemy.spring_master_class.SpringMasterClass.S1_basics;
 
 public interface SortAlgorithm {
 

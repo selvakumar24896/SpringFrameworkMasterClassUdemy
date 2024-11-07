@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass.Springboot;
+package com.udemy.spring_master_class.SpringMasterClass.S3_Springboot;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

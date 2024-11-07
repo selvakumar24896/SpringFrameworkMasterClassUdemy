@@ -1,7 +1,7 @@
-package com.udemy.spring_master_class.SpringMasterClass;
+package com.udemy.spring_master_class.SpringMasterClass.S4_Scope;
 
-import com.udemy.spring_master_class.ComponentScan.ComponentPersonDao;
-import com.udemy.spring_master_class.SpringMasterClass.Scope.PersonDao;
+import com.udemy.spring_master_class.SpringMasterClass.S4_Scope.ComponentScan.ComponentPersonDao;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

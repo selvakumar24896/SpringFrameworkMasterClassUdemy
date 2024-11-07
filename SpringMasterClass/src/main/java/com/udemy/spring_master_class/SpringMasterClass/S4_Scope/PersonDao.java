@@ -1,10 +1,6 @@
-package com.udemy.spring_master_class.SpringMasterClass.Scope;
+package com.udemy.spring_master_class.SpringMasterClass.S4_Scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
-import org.springframework.context.annotation.Scope;
-import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
 
 @Component
