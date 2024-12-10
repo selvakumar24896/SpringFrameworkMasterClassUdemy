@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass.S5_SpringBootIn10Steps;
+package com.udemy.spring_master_class.SpringMasterClass.S8_SpringBootIn10Steps;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

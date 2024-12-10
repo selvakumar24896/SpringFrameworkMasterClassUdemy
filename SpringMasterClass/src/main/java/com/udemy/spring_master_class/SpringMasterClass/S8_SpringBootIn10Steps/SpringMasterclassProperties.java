@@ -1,4 +1,4 @@
-package com.udemy.spring_master_class.SpringMasterClass.S5_SpringBootIn10Steps;
+package com.udemy.spring_master_class.SpringMasterClass.S8_SpringBootIn10Steps;
 
 import com.udemy.spring_master_class.SpringMasterClass.properties.PropertiesTest;
 import org.slf4j.Logger;
