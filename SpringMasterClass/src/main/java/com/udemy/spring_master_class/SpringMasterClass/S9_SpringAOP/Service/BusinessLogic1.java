@@ -14,4 +14,8 @@ public class BusinessLogic1 {
     public String doSomething(){
         return dao1.retreiveSomething();
     }
+
+    public String postSomething(){
+        return dao1.postSomething();
+    }
 }
